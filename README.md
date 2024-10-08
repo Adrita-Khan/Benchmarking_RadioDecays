@@ -681,7 +681,7 @@ print(f"Cython Execution Time: {end_time - start_time:.4f} seconds")
 </ul>
 <hr>
 <p><strong>Contact Information:</strong></p>
-<p>For any questions or suggestions, please open an issue on the GitHub repository or contact me at <a href="mailto:youremail@example.com">youremail@example.com</a>.</p>
+<p>For any questions or suggestions, please open an issue on the GitHub repository or contact me at <a href="mailto:adrita.khan.official@gmail.com">here</a>.</p>
 <hr>
 <p><em>This project is intended for educational purposes and provides a foundation for further exploration into numerical simulations and performance optimization across different programming languages.</em></p>
 ```

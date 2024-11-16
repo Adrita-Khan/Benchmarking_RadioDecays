@@ -1,5 +1,7 @@
 # Radioactive Decay Chain Probability Estimation using Cython and Comparative Benchmarking
+*This project is ongoing and subject to continuous advancements and modifications.*
 
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg) ![License](https://img.shields.io/badge/license-MIT-blue.svg)  
 ## Introduction
 This project focuses on modeling radioactive decay chains using Monte Carlo simulations. We aim to implement the simulation in **Cython** to leverage its performance advantages over pure Python. Additionally, we compare the performance of the Cython implementation with versions written using other Python libraries (such as **Numba**, **Pybind11**, **ctypes**, and **Boost.Python**), as well as in other languages like **Julia**, **C++**, **MATLAB**, **Mathematica**, and **R**.
 

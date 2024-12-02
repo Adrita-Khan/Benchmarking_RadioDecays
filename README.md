@@ -281,9 +281,11 @@ For scientists and engineers familiar with Python, Cython and Numba are practica
 - **Julia Language**: [https://julialang.org](https://julialang.org)
 - **Monte Carlo Methods**: [Wikipedia - Monte Carlo Method](https://en.wikipedia.org/wiki/Monte_Carlo_method)
 - **Radioactive Decay Chains**: [Wikipedia - Decay Chain](https://en.wikipedia.org/wiki/Decay_chain)
+- **IAEA Notebook API**: [API v0 Notebook](https://notebooks.gesis.org/binder/jupyter/user/iaea-nds-lc_api_notebook-xa8lqngt/doc/tree/api_v0_notebook.ipynb)
 
 
-https://notebooks.gesis.org/binder/jupyter/user/iaea-nds-lc_api_notebook-xa8lqngt/doc/tree/api_v0_notebook.ipynb
+
+
 ---
 
 

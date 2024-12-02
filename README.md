@@ -1,5 +1,5 @@
 # Radioactive Decay Chain Probability Estimation using Cython and Comparative Benchmarking
-*This project is ongoing and subject to continuous advancements and modifications.*
+This project is currently in the preliminary stages of planning, implementation, and testing, and is subject to continuous advancements and modifications.
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg) ![License](https://img.shields.io/badge/license-MIT-blue.svg)  
 ## Introduction

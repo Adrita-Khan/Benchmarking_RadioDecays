@@ -327,8 +327,14 @@ RadioactiveDecaySimulation/
 -- -->
 ---
 
-### Contact Information
-For any questions or suggestions, please open an issue on the GitHub repository or contact me [here](mailto:adrita.khan.official@gmail.com).
+## Contact
+
+For any inquiries or feedback, please contact:
+
+**Adrita Khan**  
+[📧 Email](mailto:adrita.khan.official@gmail.com) | [🔗 LinkedIn](https://www.linkedin.com/in/adrita-khan) | [🐦 Twitter](https://x.com/Adrita_)
+
+
 
 ---
 

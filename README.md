@@ -282,9 +282,12 @@ For scientists and engineers familiar with Python, Cython and Numba are practica
 - **Monte Carlo Methods**: [Wikipedia - Monte Carlo Method](https://en.wikipedia.org/wiki/Monte_Carlo_method)
 - **Radioactive Decay Chains**: [Wikipedia - Decay Chain](https://en.wikipedia.org/wiki/Decay_chain)
 
+
+https://notebooks.gesis.org/binder/jupyter/user/iaea-nds-lc_api_notebook-xa8lqngt/doc/tree/api_v0_notebook.ipynb
 ---
 
-**Full Source Code**: The full source code and detailed documentation for each implementation can be found on the [GitHub repository](https://github.com/yourusername/RadioactiveDecaySimulation). The repository includes instructions on how to set up and run each version of the simulation.
+
+<!-- **Full Source Code**: The full source code and detailed documentation for each implementation can be found on the [GitHub repository](https://github.com/yourusername/RadioactiveDecaySimulation). The repository includes instructions on how to set up and run each version of the simulation.
 
 ### GitHub Repository Structure
 ```text
@@ -322,6 +325,7 @@ RadioactiveDecaySimulation/
 └── LICENSE
 ```
 
+-- -->
 ---
 
 ### Contact Information

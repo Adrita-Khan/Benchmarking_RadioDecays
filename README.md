@@ -3,10 +3,9 @@
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg) ![License](https://img.shields.io/badge/license-MIT-blue.svg)  
 ## Introduction
-This project focuses on modeling radioactive decay chains using Monte Carlo simulations. We aim to implement the simulation in **Cython** to leverage its performance advantages over pure Python. Additionally, we compare the performance of the Cython implementation with versions written using other Python libraries (such as **Numba**, **Pybind11**, **ctypes**, and **Boost.Python**), as well as in other languages like **Julia**, **C++**, **MATLAB**, **Mathematica**, and **R**.
+This project focuses on modeling radioactive decay chains through Monte Carlo simulations, with a primary goal of implementing the simulation in **Cython** to take advantage of its performance improvements over standard Python. We will also benchmark the Cython implementation against alternative Python libraries (**Numba**, **Pybind11**, **ctypes**, **Boost.Python**) and explore implementations in other languages, including **Julia**, **C++**, **MATLAB**, **Mathematica**, and **R**.
 
-The goal is to accurately estimate decay probabilities while optimizing for speed and memory usage. This document provides a step-by-step guide, complete with source code and explanations, suitable for hosting on GitHub.
-
+The objective is to accurately estimate decay probabilities while optimizing for both computational speed and memory efficiency. This document provides a comprehensive, step-by-step guide, including source code and detailed explanations, designed for seamless integration on GitHub.
 ---
 
 ## Table of Contents

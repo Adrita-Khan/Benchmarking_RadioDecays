@@ -34,13 +34,20 @@ The objective is to accurately estimate decay probabilities while optimizing for
 
 ---
 
+Here's a refined version of your text:
+
+---
+
 ## Background Theory
-**Radioactive decay** is a random process by which an unstable atomic nucleus loses energy by emitting radiation. A **decay chain** is a series of successive radioactive decays that certain isotopes go through until they reach a stable isotope.
+
+**Radioactive decay** is a stochastic process in which an unstable atomic nucleus loses energy through radiation emission. A **decay chain** refers to a sequence of successive radioactive decays that certain isotopes undergo until they stabilize.
 
 ### Key Concepts
-- **Decay Constant (λ)**: The probability per unit time that a nucleus will decay.
-- **Half-Life (T₁/₂)**: The time required for half the nuclei in a sample to decay.
-- **Bateman Equation**: Provides the analytical solution for the number of nuclei in a decay chain over time.
+
+- **Decay Constant (λ)**: The rate at which a radioactive nucleus decays, representing the probability per unit time of a single nucleus decaying.
+- **Half-Life (T₁/₂)**: The time required for half of the nuclei in a sample to undergo decay, providing a measure of the isotope's stability.
+- **Bateman Equation**: An analytical expression that describes the time-dependent behavior of isotopes in a decay chain, allowing calculation of the number of nuclei present at any given time.
+
 
 ---
 

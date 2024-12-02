@@ -34,9 +34,6 @@ The objective is to accurately estimate decay probabilities while optimizing for
 
 ---
 
-Here's a refined version of your text:
-
----
 
 ## Background Theory
 

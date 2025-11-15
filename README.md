@@ -28,8 +28,8 @@ This project focuses on modeling radioactive decay chains through Monte Carlo si
 
 | Concept | Symbol | Description |
 |---------|--------|-------------|
-| **Decay Constant** | λ | Rate at which a radioactive nucleus decays; probability per unit time of decay |
-| **Half-Life** | T₁/₂ | Time required for half of the nuclei in a sample to decay |
+| **Decay Constant** | $\lambda$ | Rate at which a radioactive nucleus decays; probability per unit time of decay |
+| **Half-Life** | $T_{1/2}$ | Time required for half of the nuclei in a sample to decay |
 | **Bateman Equation** | - | Analytical expression for time-dependent isotope behavior in decay chains |
 
 ### Bateman Equations
@@ -39,25 +39,22 @@ The Bateman equations provide the analytical solution for the number of nuclei i
 For a simple decay chain A → B → C:
 
 **Isotope A (parent):**
-```
-N_A(t) = N_A(0) · e^(-λ₁t)
-```
+
+$$N_A(t) = N_A(0) \cdot e^{-\lambda_1 t}$$
 
 **Isotope B (daughter):**
-```
-N_B(t) = N_A(0) · (λ₁/(λ₂ - λ₁)) · (e^(-λ₁t) - e^(-λ₂t))     for λ₁ ≠ λ₂
-```
+
+$$N_B(t) = N_A(0) \cdot \frac{\lambda_1}{\lambda_2 - \lambda_1} \cdot \left(e^{-\lambda_1 t} - e^{-\lambda_2 t}\right) \quad \text{for } \lambda_1 \neq \lambda_2$$
 
 **Isotope C (stable product):**
-```
-N_C(t) = N_A(0) · [1 + (λ₁/(λ₁ - λ₂))·e^(-λ₂t) + (λ₂/(λ₂ - λ₁))·e^(-λ₁t)]
-```
+
+$$N_C(t) = N_A(0) \cdot \left[1 + \frac{\lambda_1}{\lambda_1 - \lambda_2} \cdot e^{-\lambda_2 t} + \frac{\lambda_2}{\lambda_2 - \lambda_1} \cdot e^{-\lambda_1 t}\right]$$
 
 Where:
-- N_A(0) = initial number of nuclei of Isotope A
-- λ₁ = decay constant of Isotope A
-- λ₂ = decay constant of Isotope B
-- t = time
+- $N_A(0)$ = initial number of nuclei of Isotope A
+- $\lambda_1$ = decay constant of Isotope A
+- $\lambda_2$ = decay constant of Isotope B
+- $t$ = time
 
 These analytical solutions serve as validation benchmarks for our Monte Carlo simulations.
 
@@ -76,8 +73,8 @@ Isotope A → Isotope B → Isotope C (stable)
 
 | Component | Description | Decay Constant |
 |-----------|-------------|----------------|
-| **Isotope A** | Initial radioactive isotope | λ₁ |
-| **Isotope B** | Intermediate radioactive product | λ₂ |
+| **Isotope A** | Initial radioactive isotope | $\lambda_1$ |
+| **Isotope B** | Intermediate radioactive product | $\lambda_2$ |
 | **Isotope C** | Stable end product | - |
 
 ---
@@ -88,10 +85,10 @@ Isotope A → Isotope B → Isotope C (stable)
 
 | Step | Phase | Description |
 |------|-------|-------------|
-| **1** | **Initialization** | Set initial nuclei count N₀ for Isotope A; Define total time T and time step Δt |
-| **2** | **Time Loop** | Iterate from t = 0 to T with increments of Δt |
-| **3** | **Isotope A Decay** | For each nucleus: generate random r ∈ [0,1]; if r < λ₁·Δt, decay A → B |
-| **4** | **Isotope B Decay** | For each nucleus: generate random r ∈ [0,1]; if r < λ₂·Δt, decay B → C |
+| **1** | **Initialization** | Set initial nuclei count $N_0$ for Isotope A; Define total time $T$ and time step $\Delta t$ |
+| **2** | **Time Loop** | Iterate from $t = 0$ to $T$ with increments of $\Delta t$ |
+| **3** | **Isotope A Decay** | For each nucleus: generate random $r \in [0,1]$; if $r < \lambda_1 \cdot \Delta t$, decay A → B |
+| **4** | **Isotope B Decay** | For each nucleus: generate random $r \in [0,1]$; if $r < \lambda_2 \cdot \Delta t$, decay B → C |
 | **5** | **Data Collection** | Record counts of nuclei A, B, and C at each time step |
 | **6** | **Analysis** | Store time-series data for visualization and statistical analysis |
 
